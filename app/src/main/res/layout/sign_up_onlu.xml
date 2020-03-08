@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editUserName"
+            android:hint="Enter Username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColorHint="@color/colorPrimary"
+            android:textColor="@color/colorPrimary"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_singleLineEllipsis="true"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editPassword"
+            android:hint="Enter Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:inputType="textPassword"
+            android:textColorHint="@color/colorPrimary"
+            android:textColor="@color/colorPrimary"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_singleLineEllipsis="true"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editEmail"
+            android:hint="Enter Email ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/colorPrimary"
+            android:textColor="@color/colorPrimary"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_singleLineEllipsis="true"
+            />
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
